@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="breadcrumb">
+    Home / <span>Cart Page</span>
+  </div>
+  <div class="container">
+    <div class="cart-card">
+      <div class="card-header">
+        <img class="card-icon" src="Image.png" alt="Image" />
+        <div style="flex:1">
+          <div class="product-title">Premium<br>Business Card</div>
+          <div class="product-desc">
+            Size:85 x 55 mm | Paper: 400gsm Uncoated | Side: Single Side, Full Colour<br>
+            3-4 Working Days - £5.00<br>
+            Quantity - 2500 x 1
+          </div>
+        </div>
+        <button class="close-btn" onclick="removeCard()">&times;</button>
+      </div>
+      <div class="card-footer">
+        <div>Artwork Price <span class="bold">-No</span></div>
+        <div>VAT <span class="bold">-£21.80</span></div>
+        <div>Total Price- <span class="bold">£104.00</span></div>
+        <div>Grand Price <span class="bold">£130.80</span></div>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-row"><span>Artwork Amount</span><span>£0</span></div>
+      <div class="summary-row"><span>Delivery Amount</span><span>£5.00</span></div>
+      <div class="summary-row"><span>Subtotal</span><span>£104.00</span></div>
+      <div class="summary-row"><span>VAT (20%)</span><span>£21.80</span></div>
+      <div class="summary-total">
+        <span>Total</span><span>£130.80</span>
+      </div>
+      <div class="summary-info">
+        Uthara Print is your local design and print supplier. We can <span class="bold">save you up to 45%</span> of the average marketing industry prices.
+      </div>
+      <button class="continue-btn">CONTINUE <span>&#8594;</span></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
