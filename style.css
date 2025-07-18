@@ -23,6 +23,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   width: 700px;
+  height: 250px;
   padding: 0 0 0 0;
   position: relative;
   border: 2px solid #f2f2f2;
@@ -156,6 +157,12 @@ body {
 }
 .continue-btn:hover {
   background: #0056b3;
+}
+.card-header{
+  gap: 80px;
+}
+.card-header img{
+  border-radius: 25%;
 }
 @media (max-width: 900px) {
   .cart-card {
